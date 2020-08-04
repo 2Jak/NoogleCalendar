@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navItemSchedule"
+            android:title="@string/drawer_schedule"/>
+        <item
+            android:id="@+id/navItemDay"
+            android:title="@string/drawer_day"/>
+        <item
+            android:id="@+id/navItem3Days"
+            android:title="@string/drawer_3_days"/>
+        <item
+            android:id="@+id/navItemWeek"
+            android:title="@string/drawer_week"/>
+        <item
+            android:id="@+id/navItemMonth"
+            android:title="@string/drawer_month"/>
+        <item
+            android:id="@+id/navItemSearch"
+            android:title="@string/drawer_search"/>
+    </group>
+</menu>

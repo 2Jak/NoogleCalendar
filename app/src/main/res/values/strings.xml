@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoogleCalendar</string>
+    <string name="drawer_schedule">Schedule</string>
+    <string name="drawer_day">Day</string>
+    <string name="drawer_3_days">3 days</string>
+    <string name="drawer_week">Week</string>
+    <string name="drawer_month">Month</string>
+    <string name="drawer_search">Search</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+</resources>

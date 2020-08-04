@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="2400px"
+        android:orientation="vertical">
+        <com.jftech.nooglecalendar.views.DayView
+            android:id="@+id/day_hours_layout_day_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.jftech.nooglecalendar.views.EventsView
+            android:id="@+id/day_hours_layout_events_view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
