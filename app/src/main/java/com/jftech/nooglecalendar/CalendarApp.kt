@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.content.Intent
 import android.util.Log
+import android.view.View
 import android.widget.LinearLayout
 import com.jftech.nooglecalendar.models.Event
 import com.jftech.nooglecalendar.viewmodels.CalendarViewModel

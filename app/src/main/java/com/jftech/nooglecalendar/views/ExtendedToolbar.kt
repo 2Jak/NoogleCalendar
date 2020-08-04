@@ -101,13 +101,15 @@ class ExtendedToolbar(context: Context?, attrs: AttributeSet?, defStyleAttr: Int
         {
             override fun OnPanLeft(): Boolean
             {
-                CalendarViewModel.ShiftCurrentDateDown()
+                if (!isExpanded)
+                    CalendarViewModel.ShiftCurrentDateDown()
                 return true
             }
 
             override fun OnPanRight(): Boolean
             {
-                CalendarViewModel.ShiftCurrentDateUp()
+                if (!isExpanded)
+                    CalendarViewModel.ShiftCurrentDateUp()
                 return true
             }
         })
